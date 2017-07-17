@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Система учета знаний</title>
     <link rel="stylesheet" type="text/css" href="css/index-main.css"/>
-    <link rel="stylesheet" type="text/css" href="css/index-slider.css"/>
-    <link rel="stylesheet" type="text/css" href="css/index-breadcrumb.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index-contact.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index-breadcrumb_new.css"/>
 </head>
 <body>
     <div id="menu">
@@ -29,17 +29,33 @@
             </ul>
         </nav>
     </div>
-
-    <!-- Slider Setup -->
-
-    <div class="content">
-        <div class="breadcrumb">
-            <ul>
-                  <li><a href="index_new.html">Главная</a></li>
-                  <li><a href="#">Контакты</a></li>                 
-            </ul>
-        </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2399.010328204445!2d30.476343552027472!3d50.42875062667531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1499627084370" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="breadcrumb">
+        <ul>
+              <li><a href="index_new.html">Главная</a></li>
+              <li><a href="#" class="current">Контакты</a></li>                 
+        </ul>
     </div>
+    <div class="content">
+        <p class="content__contact">
+            Наш адрес: г.Киев, Спортивная площадь 1а
+            <br><br>
+            тел.: +38 (044) 55-555-55
+        </p>
+        <!--<div class="empty">
+        </div>-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20330.913091725764!2d30.519902030444356!3d50.43431773187816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f234c3b0a0b492!2z0JPRg9C70LvQuNCy0LXRgA!5e0!3m2!1sru!2sua!4v1499800336971" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <footer>
+        <div>
+            <p>Alina Andrushkevych, Kyiv, 2017</p>
+        </div>
+        <div class="share">
+            <a onclick="Share.vkontakte('URL','TITLE','IMG_PATH','DESC')"> {шарь меня полностью}</a>
+            <a onclick="Share.facebook('URL','TITLE','IMG_PATH','DESC')"> {шарь меня полностью}</a>
+            <a onclick="Share.mailru('URL','TITLE','IMG_PATH','DESC')"> {шарь меня полностью}</a>
+            <a onclick="Share.odnoklassniki('URL','DESC')"> {шарь меня полностью}</a>
+            <a onclick="Share.twitter('URL','TITLE')"> {шарь меня полностью}</a>
+        </div>
+    </footer>
 </body>
 </html>

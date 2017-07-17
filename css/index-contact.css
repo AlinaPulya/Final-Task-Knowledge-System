@@ -1,75 +1,28 @@
-body, html{
+.content{
+    height: 500px;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    padding-top: 68px;
 }
-body{
+p.content__contact{
+    height: 400px;
+    width: 450px;
     font-family: GothamProRegular, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 60%;
-    background-image: url("background_2.jpg");
-    background-attachment: scroll;
-    background-origin: padding-box;
-    background-clip: border-box;
-    background-color: transparent;
-    background-size: cover;
-}
-*{
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-#menu{
-    height: 10%;
-    text-transform: uppercase;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    border-color: red;
-
-}
-.global-navigation{
-    width: 100%;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-#menu ul{
-    padding-left: 0;
-    list-style: none;
-    list-style-position: outside;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-}
-#menu ul li{
-    box-sizing: border-box;
-    display: inline-block;
-    line-height: 36px;
-    border: 2px transparent solid;
-
-}
-#menu ul li a{
-    /*transition: all .2s;*/
-    padding: 0 15px;
-    height: 100%;
-    width: 100%;
-    display: block;
-    color: #fff;
     font-size: 18px;
-    font-weight: bolder;
-    border: 10px solid hsla(0, 0%, 100%, .5);
-    border-radius: 5px;
-    background-clip: padding-box;
+    color: white;
+    line-height: 60%;
+    text-transform: uppercase;
+    display: inline-block;
 }
-#menu li:hover {
-    background-color: cornflowerblue; /* Цвет фона под ссылкой */
-    color: white; /* Цвет ссылки */
-    border-radius: 5px;
-    /*border: 1px solid aquamarine;*/
+/*.empty{
+    height: 500px;
+    width: 10px;
+}*/
+iframe{
+    width: 447px;
+    height: 390px;
+    display: inline-block;
+    padding-right: 57px;
 }

@@ -17,6 +17,7 @@ body{
 footer{
     padding: 0;
     margin: 0 auto;
+    bottom: 0;
     overflow: hidden; /* Отображается только область внутри элемента, остальное будет скрыто */
 }
 *{
@@ -32,6 +33,7 @@ footer{
     padding-left: 15px;  /* внутренний отступ слева*/
     margin-left: auto;   /* внешний отступ */
     margin-right: auto;  /* внешний отступ */
+    margin-top: 10px;
     border-color: red;   /* граница */
 
 }
@@ -78,4 +80,26 @@ footer{
     color: white; /* Цвет ссылки */
    /* border-radius: 5px;*/
     /*border: 1px solid aquamarine;*/
+}
+.share a{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    overflow: hidden;
+}
+a.facebook{
+    background-image: url("picture/fb_icon_1.png");
+    background-attachment: scroll; /* позволяет перемещаться фону вместе с содержимым */
+    background-origin: padding-box; /* фон позиционируется относительно края элемента с учетом толщины границы */
+    background-clip: border-box; /* Фон выводится под границами */
+    background-color: transparent; /* Устанавливает прозрачный фон */
+    background-size: cover; /* Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока */
+}
+a.twitter{
+    background-image: url("picture/tw_icon.png");
+    background-attachment: scroll; /* позволяет перемещаться фону вместе с содержимым */
+    background-origin: padding-box; /* фон позиционируется относительно края элемента с учетом толщины границы */
+    background-clip: border-box; /* Фон выводится под границами */
+    background-color: transparent; /* Устанавливает прозрачный фон */
+    background-size: cover; /* Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока */
 }
